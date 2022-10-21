@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "正文和代码/六 图论.md",
+                "file": "正文和代码/七 动态规划.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "485a4ee6d71514b5",
+            "id": "687c077a56bcd975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "正文和代码/八 数学.md",
+                "file": "正文和代码/六 图论.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,17 +153,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6186109ca7ad5f76",
+  "active": "687c077a56bcd975",
   "lastOpenFiles": [
-    "正文和代码/五 数据结构.md",
-    "正文和代码/九 杂项.md",
-    "正文和代码/八 数学.md",
-    "正文和代码/六 图论.md",
-    "索引.md",
-    "正文和代码/一 小寄巧.md",
-    "正文和代码/二 基础算法.md",
-    "Pasted image 20221020163133.png",
     "正文和代码/七 动态规划.md",
-    "正文和代码/CSP-S初试知识点梳理.md"
+    "正文和代码/六 图论.md",
+    "正文和代码/八 数学.md",
+    "正文和代码/二 基础算法.md",
+    "正文和代码/九 杂项.md",
+    "正文和代码/一 小寄巧.md",
+    "正文和代码/四 字符串.md",
+    "正文和代码/五 数据结构.md",
+    "索引.md",
+    "Pasted image 20221020163133.png"
   ]
 }
