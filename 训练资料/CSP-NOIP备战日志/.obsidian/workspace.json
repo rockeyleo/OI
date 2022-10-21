@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "18f6c64ae21d14f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "e331a8c868e42e87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2959bd1de20ebad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "正文和代码/六 图论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ae610f01cd9439a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e915bfa3d555d6c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7f60666bb181dee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c057b2b50928ac06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6f15b46dc04b316a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "47e0ea7928743d30",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "eeac27699cefe491",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4ff4aa132931472",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e5083f9624e9503",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "正文和代码/六 图论.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4c7c50748f5c218e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "正文和代码/六 图论.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8559a1504b20e74a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5404ec75fb6138f9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "正文和代码/六 图论.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "b2959bd1de20ebad",
+  "lastOpenFiles": [
+    "正文和代码/五 数据结构.md",
+    "正文和代码/六 图论.md",
+    "正文和代码/二 基础算法.md",
+    "Pasted image 20221020163133.png",
+    "正文和代码/八 数学.md",
+    "索引.md",
+    "正文和代码/七 动态规划.md",
+    "正文和代码/CSP-S初试知识点梳理.md",
+    "正文和代码/九 杂项.md",
+    "正文和代码/一 小寄巧.md"
+  ]
+}
