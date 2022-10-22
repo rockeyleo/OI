@@ -1,51 +1,42 @@
 #include <bits/stdc++.h>
 using namespace std;
 const int M = 500100;
-// int dis[M],nxt[M],head[M],vis[M],to[M],cnt,val[M],cnt;
-int fa[M],rk[M],cnt;
+int nxt[M],head[M],to[M],cnt;
+int fa[M],rk[M],val[M],tot;
 struct edge{
     int f,t,v;
 }node[M];
 
-void add(int f,int t,int v){
-    node[++cnt].f = f;
-    node[cnt].t = t;
-    node[cnt].v = v;
+void add(int f,int t){
+    to[++cnt] = t;
+    nxt[cnt] = head[f];
+    head[f] = cnt;
 }
-
-// void add(int f,int t,int v){
-//     to[++cnt] = t;
-//     nxt[cnt] = head[f];
-//     head[f] = cnt;
-//     val[cnt] = v;
-// }
 
 int find(int a){
     if(fa[a]==a)return a;
-    return(fa[a]=find(fa[a]));
-}
-
-void uion(int u,int v){
-    if(rk[u]>rk[v]){
-        fa[v] = u;
-    }else if(rk[u]==rk[v]){
-        fa[v] = u;
-        rk[u]++;
-    }else{
-        fa[u] = v;
-    }
+    return(fa[a] = find(fa[a]));
 }
 
 void krus(){
-    int cnt =0;
-    for(int i=1;i<=m;i++){
-        int u = find(node[i].f);
-        int v = find(node[i].t);
-        if(u==v){continue;}
-        uion(u,v);  //事实证明按秩合并在稠密图没啥用
-        // fa[u]=v;
-        if(cnt>n-1)break;
+    sort(node+1,node+1+m,[](edge a,edge b){return a.v>b.v;});
+    for(int i=1;i<=n;i++){
+        fa[i] = i;
     }
+    tot = n;
+    for(int i=1;i<=m;i++){
+        int a = find(node[i].f), b = find(node[i].t);
+        if(a!=b){
+            val[++tot] = node[i].v; //tot就是新建的点的编号，所以需要初始化成n
+            fa[a] = fa[b] = fa[cnt] = tot;  //注意cnt这个新建点还没有初始化
+            add(a,tot); add(tot,a);  //新出现的边是无权的
+            add(b,tot); add(tot,b);
+        }
+    }
+}
+
+int lca(int a,int b){
+
 }
 
 int n,m,q;
@@ -54,18 +45,19 @@ int main(){
     for(int i=1;i<=n;i++){
         int f,t,v;
         cin>>f>>t>>v;
-        add(f,t,v);
-        add(t,f,v);
+        node[i].f = f;
+        node[i].t = t;
+        node[i].v = v;  //边是双向边
     }
     krus();
     cin>>q;
     for(int i=1;i<=q;i++){
         int f,t;
         cin>>f>>t;
-        if(fa[f]!=fa[t]){
+        if(find(f)!=find(t)){
             cout<<-1<<endl;
         }else{
-            
+            cout<<val[lca(f,t)];  //LCA是在重构树上跑的
         }
     }
 }
