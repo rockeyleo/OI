@@ -10,6 +10,8 @@ int main(){
         cin>>num[i];
         num[i+n] = num[i];
         f[i][i] = p[i][i] = f[i+n][i+n] = p[i+n][i+n] =  0;
+    }
+    for(int i=1;i<=n*2;i++){
         pre[i] = pre[i-1]+num[i];
     }
     for(int len=1;len<=n;len++){
