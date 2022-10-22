@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "正文和代码/九 杂项.md",
+                "file": "正文和代码/七 动态规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "eeac27699cefe491",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "正文和代码/九 杂项.md",
+                "file": "正文和代码/七 动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "正文和代码/九 杂项.md",
+                "file": "正文和代码/七 动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "正文和代码/九 杂项.md"
+                "file": "正文和代码/七 动态规划.md"
               }
             }
           }
@@ -142,9 +143,9 @@
   },
   "active": "1d00e07d3e5bb813",
   "lastOpenFiles": [
+    "正文和代码/九 杂项.md",
     "正文和代码/一 小寄巧.md",
     "正文和代码/七 动态规划.md",
-    "正文和代码/九 杂项.md",
     "正文和代码/六 图论.md",
     "正文和代码/三 搜索.md",
     "正文和代码/CSP-S初试知识点梳理.md",
