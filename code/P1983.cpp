@@ -17,6 +17,7 @@ void add(int f,int t){
     edge[f][t] = 1;
     in[t]++;
     out[f]++;
+    // cout<<f<<" "<<t<<endl;
 }
 
 queue<int>q;
@@ -55,12 +56,14 @@ int main(){
         q.pop();
         int flag = 0;
         for(int i=1;i<=n;i++){
-            if(edge[now][i]==1)
+            if(edge[now][i]==1){
+                cout<<i<<endl;
                 in[i]--;
                 if(in[i]==0){
                     flag = 1;
                     q.push(i);
                 }
+            }
         }
         if(flag)ans++;
     }
