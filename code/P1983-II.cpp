@@ -1,40 +1,31 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int M = 5005;
-int s[M],g[M];
-// int head[M],nxt[M],to[M],cnt;
-int in[M],out[M],ans=1;
+const int M = 90000000;
+int s[1001],g[1001];
+int head[M],nxt[M],to[M],cnt;
+int in[1001],out[1001],ans=1;
 int edge[1001][1001];
-// void add(int f,int t){
-//     in[t]++;
-//     out[f]++;
-//     to[++cnt] = t;
-//     nxt[cnt] = head[f];
-//     head[f] = cnt;
-// }
 
 void add(int f,int t){
-    edge[f][t] = 1;
     in[t]++;
     out[f]++;
-    // cout<<f<<" "<<t<<endl;
+    to[++cnt] = t;
+    nxt[cnt] = head[f];
+    head[f] = cnt;
 }
 
 queue<int>q;
 
 int main(){
-    memset(edge,0,sizeof(edge));
-    // freopen("P1983_5.in","r",stdin);
-    // freopen("P1983_5.out","w",stdout);
+    // freopen("P1983_6.in","r",stdin);
+    // freopen("P1983_6.out","w",stdout);
     int n,m;
     cin>>n>>m;
     for(int i=1;i<=m;i++){
         int s;
         cin>>s;
         int st,ed;
-        for(int i=1;i<=n;i++){
-            g[i] = 0;
-        }
+        memset(g,0,sizeof(g));
         for(int i=1;i<=s;i++){
             int tmp; cin>>tmp;
             if(i==1)st = tmp;
@@ -44,10 +35,9 @@ int main(){
         for(int k=st;k<=ed;k++){
             if(!g[k]){
                 for(int w=st;w<=ed;w++){
-                    if(g[w]){
-                        edge[k][w] = 1;
-                        in[w]++;
-                        out[k]++;
+                    if(g[w] and !edge[k][w]){
+                        add(k,w);                    
+                        edge[k][w]=1;
                     }
                 }
             }
@@ -60,13 +50,12 @@ int main(){
         int now = q.front();
         q.pop();
         int flag = 0;
-        for(int i=1;i<=n;i++){
-            if(edge[now][i]==1){
-                in[i]--;
-                if(in[i]==0){
-                    flag = 1;
-                    q.push(i);
-                }
+        for(int i=head[now];i;i=nxt[i]){
+            int tt = to[i];
+            in[tt]--;
+            if(in[tt]==0){
+                flag = 1;
+                q.push(tt);
             }
         }
         if(flag)ans++;

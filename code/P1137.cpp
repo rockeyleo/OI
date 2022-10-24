@@ -2,7 +2,7 @@
 using namespace std;
 const int M = 500000;
 int head[M],to[M],nxt[M],cnt;
-int in[M],out[M];
+int in[M],out[M],val[M];
 queue<int>q;
 
 void add(int f,int t){
@@ -22,10 +22,23 @@ int main(){
     }
     for(int i=1;i<=n;i++){
         if(in[i]==0){
+            val[i] = 1;
             q.push(i);
         }
     }
     while(!q.empty()){
-
+        int now = q.front();
+        q.pop();
+        for(int i=head[now];i;i=nxt[i]){
+            int tt = to[i];
+            val[tt] = val[now]+1;
+            in[tt]--;
+            if(in[tt]==0){
+                q.push(tt);
+            }
+        }
+    }
+    for(int i=1;i<=n;i++){
+        cout<<val[i]<<endl;
     }
 }
