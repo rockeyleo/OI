@@ -36,7 +36,7 @@ int main(){
             if(in[tt]==0){
                 q.push(tt);
             }
-        }
+        }   
     }
     for(int i=1;i<=n;i++){
         cout<<val[i]<<endl;
