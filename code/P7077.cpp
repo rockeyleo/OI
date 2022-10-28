@@ -19,7 +19,7 @@ int main(){
     cin>>m;
     for(int i=1;i<=m;i++){
         cin>>fun[i].mode; 
-        switch(mode[i].mode){
+        switch(fun[i].mode){
             case 1:{
                 int p,v;
                 cin>>p>>v;
