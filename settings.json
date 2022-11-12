@@ -1,0 +1,34 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cls && cd $dir && g++ $fullFileName -static-libgcc -Wall -std=c++14 -o \"out.exe\" && .\\ConsolePauser.exe out.exe",
+        //"cpp": "cd $dir && g++ \"$fileName\" -o a && .\\a",
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "code-runner.defaultLanguage": "cpp",
+    "code-runner.runInTerminal": true,
+    "code-runner.customCommand": " cls",
+    "editor.cursorBlinking": "smooth",//使编辑器光标的闪烁平滑，有呼吸感
+    "editor.smoothScrolling": true,//使编辑器滚动变平滑
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.editor.untitled.hint": "hidden", //让光标移动、插入变得平滑
+    "window.dialogStyle": "custom", //使用更具有VSCode的UI风格的弹窗提示（更美观）
+    "code-runner.clearPreviousOutput": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "files.associations": {
+        "*.cpp": "cpp"
+    },
+    "luogu.defaultLanguage": "Python 3",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "json.maxItemsComputed": 5000000,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.renderWhitespace": "boundary",
+    "C_Cpp.codeAnalysis.clangTidy.headerFilter": "",
+    "C_Cpp.commentContinuationPatterns": [
+    
+        "/**"
+    ],
+    "window.zoomLevel": 1
+}
