@@ -10,6 +10,7 @@ template<class T>T read(){
 }
 
 int main(){
+    cout<<(1<<10)<<endl;
     int a = read<int>(), b = read<int>();
     cout<<a<<" "<<b<<endl;
 }
