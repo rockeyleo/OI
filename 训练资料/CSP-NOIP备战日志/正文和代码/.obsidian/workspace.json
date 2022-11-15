@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "六 图论.md",
+                "file": "三 搜索.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "六 图论.md",
+                "file": "九 杂项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "六 图论.md",
+                "file": "九 杂项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "六 图论.md"
+                "file": "九 杂项.md"
               }
             }
           }
@@ -150,10 +151,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ebdcce1f33de4d6d",
+  "active": "9a2428d6cf5a273c",
   "lastOpenFiles": [
-    "九 杂项.md",
+    "三 搜索.md",
     "六 图论.md",
+    "九 杂项.md",
     "一 小寄巧.md",
     "CSP-S初试知识点梳理.md",
     "五 数据结构.md",
