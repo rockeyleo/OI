@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "三 搜索.md",
+                "file": "八 数学.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,13 +153,13 @@
   },
   "active": "9a2428d6cf5a273c",
   "lastOpenFiles": [
+    "八 数学.md",
     "三 搜索.md",
-    "六 图论.md",
     "九 杂项.md",
+    "六 图论.md",
     "一 小寄巧.md",
     "CSP-S初试知识点梳理.md",
     "五 数据结构.md",
-    "二 基础算法.md",
-    "八 数学.md"
+    "二 基础算法.md"
   ]
 }
