@@ -1,27 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int M = 1e6+10;
-int val[i];
-int tree[M*4];
+const int M = 5000010;
+int n;
+int son[M];
+struct dd{
+	int ls,rs;
+}node[M];
 
-int dfs(int x,int y,ans){
-    if(val[x]!=val[y] or val[x]=-1 or val[y]==-1)return ans;
-    
+int read(){
+	int ret = 0; char ch = getchar();
+	while(ch<'0' or ch>'9'){ch = getchar();}
+	while(ch>='0' and ch<='9'){ret = ret*10+ch-'0';ch = getchar();}
+	return ret;
+}
+
+void init(int now = 1,int fa = 1){
+	if(node[now].ls == 0 and node[now].rs == 0){
+		son[i] = 1;
+		return;
+	}
+	if(node[now].ls!=-1)dfs(node[now].ls,now);
+	if(node[now].ts!=-1)dfs(node[now].rs,now);
+	son[now] = son[node[now].ls]+son[node[now].rs]
 }
 
 int main(){
-    ios::sync_with_stdio(false);
-    memset(-1,tree,sizeof(tree));
-    int n;
-    cin>>n;
-    for(int i=1;i<=n;i++){
-        cin>>val[i];
-    }
-    for(int i=1;i<=n;i++){
-        cin>>tree[i<<2]>>tree[i*2+1];
-    }
-    for(int i=1;i<=n;i++){
-        ans = max(i*2,i*2+1,1);
-    }
-    cout<<ans;
+	cin>>n;
+	for(int i=1;i<=n;i++){
+		node[i].ls = read();
+		node[i].rs = read();
+	}
+	init();
+ 	dfs(node[i].ls,node[i].rs,1);
 }

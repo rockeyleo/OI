@@ -1,0 +1,525 @@
+son[1] = 96
+son[2] = 71
+son[3] = 34
+son[4] = 12
+son[5] = 9
+son[6] = 16
+son[7] = 12
+son[8] = 2
+son[9] = 7
+son[10] = 2
+son[11] = 17
+son[12] = 19
+son[13] = 4
+son[14] = 9
+son[15] = 2
+son[16] = 2
+son[17] = 7
+son[18] = 1
+son[19] = 9
+son[20] = 1
+son[21] = 5
+son[22] = 1
+son[23] = 2
+son[24] = 5
+son[25] = 6
+son[26] = 3
+son[27] = 4
+son[28] = 11
+son[29] = 5
+son[30] = 2
+son[31] = 2
+son[32] = 4
+son[33] = 1
+son[34] = 2
+son[35] = 3
+son[36] = 1
+son[37] = 4
+son[38] = 5
+son[39] = 1
+son[40] = 4
+son[41] = 1
+son[42] = 5
+son[43] = 2
+son[44] = 4
+son[45] = 3
+son[46] = 1
+son[47] = 2
+son[48] = 1
+son[49] = 2
+son[50] = 2
+son[51] = 2
+son[52] = 1
+son[53] = 2
+son[54] = 1
+son[55] = 1
+son[56] = 1
+son[57] = 1
+son[58] = 1
+son[59] = 1
+son[60] = 2
+son[61] = 1
+son[62] = 1
+son[63] = 2
+son[64] = 3
+son[65] = 2
+son[66] = 2
+son[67] = 2
+son[68] = 1
+son[69] = 1
+son[70] = 1
+son[71] = 1
+son[72] = 1
+son[73] = 1
+son[74] = 1
+son[75] = 1
+son[76] = 2
+son[77] = 2
+son[78] = 1
+son[79] = 1
+son[80] = 1
+son[81] = 1
+son[82] = 1
+son[83] = 1
+son[84] = 1
+son[85] = 1
+son[86] = 1
+son[87] = 1
+son[88] = 1
+son[89] = 1
+son[90] = 1
+son[91] = 1
+son[92] = 2
+son[93] = 1
+son[94] = 1
+son[95] = 1
+son[96] = 1
+dep[a]=6 dep[b]=3
+lca(a,b)=2
+len(a,b)=7
+0
+dep[a]=1 dep[b]=1
+lca(a,b)=1
+len(a,b)=2
+a=18,b=2
+query(a)=18
+query(b)=2
+son[query(a,mid-1)]=1
+son[query(b,mid-1)]=71
+24
+dep[a]=6 dep[b]=4
+lca(a,b)=2
+len(a,b)=8
+12
+dep[a]=5 dep[b]=5
+lca(a,b)=12
+len(a,b)=6
+a=54,b=31
+query(a)=14
+query(b)=6
+son[query(a,mid-1)]=9
+son[query(b,mid-1)]=16
+71
+dep[a]=4 dep[b]=3
+lca(a,b)=2
+len(a,b)=5
+0
+dep[a]=2 dep[b]=3
+lca(a,b)=1
+len(a,b)=5
+0
+dep[a]=5 dep[b]=0
+lca(a,b)=1
+len(a,b)=5
+0
+dep[a]=5 dep[b]=4
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=4 dep[b]=1
+lca(a,b)=2
+len(a,b)=3
+0
+dep[a]=1 dep[b]=4
+lca(a,b)=2
+len(a,b)=3
+0
+dep[a]=6 dep[b]=3
+lca(a,b)=2
+len(a,b)=7
+0
+dep[a]=6 dep[b]=4
+lca(a,b)=2
+len(a,b)=8
+6
+dep[a]=7 dep[b]=5
+lca(a,b)=1
+len(a,b)=12
+54
+dep[a]=5 dep[b]=2
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=5 dep[b]=5
+lca(a,b)=50
+len(a,b)=2
+a=74,b=17
+query(a)=74
+query(b)=17
+son[query(a,mid-1)]=1
+son[query(b,mid-1)]=7
+88
+dep[a]=5 dep[b]=3
+lca(a,b)=1
+len(a,b)=8
+54
+dep[a]=4 dep[b]=5
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=3 dep[b]=5
+lca(a,b)=1
+len(a,b)=8
+4
+dep[a]=5 dep[b]=2
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=4 dep[b]=2
+lca(a,b)=2
+len(a,b)=4
+18
+dep[a]=5 dep[b]=4
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=4 dep[b]=7
+lca(a,b)=1
+len(a,b)=11
+0
+dep[a]=5 dep[b]=2
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=4 dep[b]=4
+lca(a,b)=2
+len(a,b)=6
+a=35,b=50
+query(a)=11
+query(b)=3
+son[query(a,mid-1)]=17
+son[query(b,mid-1)]=34
+45
+dep[a]=3 dep[b]=8
+lca(a,b)=2
+len(a,b)=9
+0
+dep[a]=5 dep[b]=4
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=6 dep[b]=5
+lca(a,b)=2
+len(a,b)=9
+0
+dep[a]=2 dep[b]=3
+lca(a,b)=1
+len(a,b)=5
+0
+dep[a]=6 dep[b]=5
+lca(a,b)=2
+len(a,b)=9
+0
+dep[a]=4 dep[b]=3
+lca(a,b)=2
+len(a,b)=5
+0
+dep[a]=5 dep[b]=6
+lca(a,b)=2
+len(a,b)=9
+0
+dep[a]=3 dep[b]=7
+lca(a,b)=1
+len(a,b)=10
+6
+dep[a]=4 dep[b]=4
+lca(a,b)=2
+len(a,b)=6
+a=38,b=60
+query(a)=11
+query(b)=29
+son[query(a,mid-1)]=17
+son[query(b,mid-1)]=5
+74
+dep[a]=4 dep[b]=6
+lca(a,b)=2
+len(a,b)=8
+18
+dep[a]=2 dep[b]=6
+lca(a,b)=2
+len(a,b)=6
+3
+dep[a]=5 dep[b]=3
+lca(a,b)=1
+len(a,b)=8
+37
+dep[a]=4 dep[b]=4
+lca(a,b)=35
+len(a,b)=0
+96
+dep[a]=5 dep[b]=6
+lca(a,b)=2
+len(a,b)=9
+0
+dep[a]=3 dep[b]=4
+lca(a,b)=2
+len(a,b)=5
+0
+dep[a]=4 dep[b]=4
+lca(a,b)=24
+len(a,b)=2
+a=91,b=38
+query(a)=91
+query(b)=38
+son[query(a,mid-1)]=1
+son[query(b,mid-1)]=5
+90
+dep[a]=2 dep[b]=5
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=6 dep[b]=4
+lca(a,b)=2
+len(a,b)=8
+18
+dep[a]=4 dep[b]=3
+lca(a,b)=2
+len(a,b)=5
+0
+dep[a]=3 dep[b]=3
+lca(a,b)=3
+len(a,b)=2
+a=9,b=34
+query(a)=9
+query(b)=34
+son[query(a,mid-1)]=7
+son[query(b,mid-1)]=2
+87
+dep[a]=5 dep[b]=1
+lca(a,b)=1
+len(a,b)=6
+18
+dep[a]=5 dep[b]=0
+lca(a,b)=1
+len(a,b)=5
+0
+dep[a]=5 dep[b]=5
+lca(a,b)=12
+len(a,b)=6
+a=89,b=17
+query(a)=14
+query(b)=6
+son[query(a,mid-1)]=9
+son[query(b,mid-1)]=16
+71
+dep[a]=5 dep[b]=8
+lca(a,b)=2
+len(a,b)=11
+0
+dep[a]=3 dep[b]=4
+lca(a,b)=19
+len(a,b)=5
+0
+dep[a]=2 dep[b]=5
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=4 dep[b]=4
+lca(a,b)=28
+len(a,b)=2
+a=47,b=64
+query(a)=47
+query(b)=64
+son[query(a,mid-1)]=2
+son[query(b,mid-1)]=3
+91
+dep[a]=5 dep[b]=6
+lca(a,b)=2
+len(a,b)=9
+0
+dep[a]=7 dep[b]=2
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=5 dep[b]=2
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=8 dep[b]=6
+lca(a,b)=2
+len(a,b)=12
+18
+dep[a]=7 dep[b]=4
+lca(a,b)=1
+len(a,b)=11
+0
+dep[a]=6 dep[b]=4
+lca(a,b)=2
+len(a,b)=8
+25
+dep[a]=6 dep[b]=6
+lca(a,b)=2
+len(a,b)=10
+a=22,b=52
+query(a)=3
+query(b)=11
+son[query(a,mid-1)]=34
+son[query(b,mid-1)]=17
+45
+dep[a]=5 dep[b]=2
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=4 dep[b]=2
+lca(a,b)=2
+len(a,b)=4
+25
+dep[a]=5 dep[b]=3
+lca(a,b)=1
+len(a,b)=8
+37
+dep[a]=2 dep[b]=7
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=5 dep[b]=3
+lca(a,b)=1
+len(a,b)=8
+52
+dep[a]=4 dep[b]=2
+lca(a,b)=2
+len(a,b)=4
+27
+dep[a]=4 dep[b]=2
+lca(a,b)=4
+len(a,b)=4
+3
+dep[a]=2 dep[b]=4
+lca(a,b)=2
+len(a,b)=4
+12
+dep[a]=4 dep[b]=6
+lca(a,b)=2
+len(a,b)=8
+12
+dep[a]=4 dep[b]=6
+lca(a,b)=2
+len(a,b)=8
+10
+dep[a]=2 dep[b]=3
+lca(a,b)=1
+len(a,b)=5
+0
+dep[a]=2 dep[b]=6
+lca(a,b)=2
+len(a,b)=6
+4
+dep[a]=4 dep[b]=4
+lca(a,b)=5
+len(a,b)=2
+a=8,b=50
+query(a)=8
+query(b)=50
+son[query(a,mid-1)]=2
+son[query(b,mid-1)]=2
+92
+dep[a]=1 dep[b]=3
+lca(a,b)=1
+len(a,b)=4
+37
+dep[a]=5 dep[b]=1
+lca(a,b)=1
+len(a,b)=6
+25
+dep[a]=4 dep[b]=6
+lca(a,b)=2
+len(a,b)=8
+18
+dep[a]=5 dep[b]=6
+lca(a,b)=2
+len(a,b)=9
+0
+dep[a]=6 dep[b]=4
+lca(a,b)=2
+len(a,b)=8
+6
+dep[a]=4 dep[b]=5
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=3 dep[b]=9
+lca(a,b)=1
+len(a,b)=12
+4
+dep[a]=6 dep[b]=6
+lca(a,b)=85
+len(a,b)=0
+96
+dep[a]=5 dep[b]=2
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=5 dep[b]=2
+lca(a,b)=1
+len(a,b)=7
+0
+dep[a]=4 dep[b]=2
+lca(a,b)=2
+len(a,b)=4
+17
+dep[a]=3 dep[b]=3
+lca(a,b)=1
+len(a,b)=6
+a=80,b=5
+query(a)=4
+query(b)=2
+son[query(a,mid-1)]=12
+son[query(b,mid-1)]=71
+13
+dep[a]=6 dep[b]=6
+lca(a,b)=2
+len(a,b)=10
+a=22,b=72
+query(a)=3
+query(b)=11
+son[query(a,mid-1)]=34
+son[query(b,mid-1)]=17
+45
+dep[a]=7 dep[b]=9
+lca(a,b)=1
+len(a,b)=16
+37
+dep[a]=2 dep[b]=7
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=5 dep[b]=4
+lca(a,b)=1
+len(a,b)=9
+0
+dep[a]=3 dep[b]=2
+lca(a,b)=1
+len(a,b)=5
+0
+dep[a]=3 dep[b]=2
+lca(a,b)=1
+len(a,b)=5
+0
+dep[a]=3 dep[b]=5
+lca(a,b)=1
+len(a,b)=8
+54
+dep[a]=5 dep[b]=3
+lca(a,b)=1
+len(a,b)=8
+37

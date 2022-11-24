@@ -15,7 +15,7 @@ int main() {
 		for (int a = 0; a < p; ++a) {
 			int b = ((i - 1ll * a * a) % p + p) % p;
 			if (sq[b] != -1) {
-				ok = true;
+//				ok = true;
 				mx = max(a, mx);
 				break;
 			}

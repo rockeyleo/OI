@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八 数学.md",
+                "file": "九 杂项.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "九 杂项.md",
+                "file": "一 小寄巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b7beb0d33726f72a",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "九 杂项.md",
+                "file": "一 小寄巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "九 杂项.md",
+                "file": "一 小寄巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "九 杂项.md"
+                "file": "一 小寄巧.md"
               }
             }
           }
@@ -151,12 +150,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9a2428d6cf5a273c",
+  "active": "26ba5306c4f45f66",
   "lastOpenFiles": [
+    "六 图论.md",
+    "九 杂项.md",
     "八 数学.md",
     "三 搜索.md",
-    "九 杂项.md",
-    "六 图论.md",
     "一 小寄巧.md",
     "CSP-S初试知识点梳理.md",
     "五 数据结构.md",
