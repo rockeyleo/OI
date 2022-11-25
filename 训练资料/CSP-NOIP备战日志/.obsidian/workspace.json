@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "正文和代码/二 基础算法.md",
+                "file": "正文和代码/四 字符串.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f50cec8f3c7e3efd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "正文和代码/五 数据结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "正文和代码/七 动态规划.md",
+                "file": "写在最后之后.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "正文和代码/七 动态规划.md",
+                "file": "正文和代码/五 数据结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "正文和代码/七 动态规划.md",
+                "file": "正文和代码/五 数据结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "正文和代码/七 动态规划.md"
+                "file": "正文和代码/五 数据结构.md"
               }
             }
           }
@@ -150,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4bdfd967a12192a4",
+  "active": "f50cec8f3c7e3efd",
   "lastOpenFiles": [
-    "正文和代码/六 图论.md",
-    "正文和代码/二 基础算法.md",
+    "正文和代码/一 小寄巧.md",
+    "正文和代码/四 字符串.md",
     "正文和代码/三 搜索.md",
     "正文和代码/七 动态规划.md",
+    "正文和代码/二 基础算法.md",
+    "写在最后之后.md",
+    "正文和代码/六 图论.md",
     "正文和代码/八 数学.md",
     "正文和代码/九 杂项.md",
-    "正文和代码/四 字符串.md",
-    "正文和代码/一 小寄巧.md",
-    "正文和代码/五 数据结构.md",
-    "正文和代码/CSP-S初试知识点梳理.md"
+    "正文和代码/五 数据结构.md"
   ]
 }

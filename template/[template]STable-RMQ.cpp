@@ -19,7 +19,7 @@ void init(){
 
 int find(int l,int r){
     int len = l2g(r-l+1);
-    return min(f[l][len],f[r-(1<<(len))+1][len]);w
+    return min(f[l][len],f[r-(1<<(len))+1][len]);
 }
 
 int main(){
