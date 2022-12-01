@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e331a8c868e42e87",
+        "id": "ff2987c009ba390b",
         "type": "tabs",
         "children": [
           {
-            "id": "1d00e07d3e5bb813",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写在最后之后.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30e2e7746b6c91f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "一个幽默的故事：NOIP2022游记-退役回忆.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f50cec8f3c7e3efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "正文和代码/九 杂项.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4bdfd967a12192a4",
+            "id": "07b26de4b0b3b672",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "一个幽默的故事：NOIP2022游记-退役回忆.md",
+                "file": "写在最后之后.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "一个幽默的故事：NOIP2022游记-退役回忆.md",
+                "file": "写在最后之后.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "一个幽默的故事：NOIP2022游记-退役回忆.md"
+                "file": "写在最后之后.md"
               }
             }
           }
@@ -174,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "30e2e7746b6c91f7",
+  "active": "c057b2b50928ac06",
   "lastOpenFiles": [
-    "写在最后之后.md",
     "索引.md",
-    "正文和代码/九 杂项.md",
-    "正文和代码/一 小寄巧.md",
+    "写在最后之后.md",
+    "正文和代码/九-杂项.md",
+    "九-杂项.md/当你在停课时.md",
     "正文和代码/CSP-S初试知识点梳理.md",
-    "正文和代码/八 数学.md",
-    "正文和代码/二 基础算法.md",
-    "正文和代码/四 字符串.md",
-    "正文和代码/五 数据结构.md",
-    "正文和代码/六 图论.md"
+    "正文和代码/五-数据结构.md",
+    "正文和代码/四-字符串.md",
+    "正文和代码/一-小寄巧.md",
+    "正文和代码/三-搜索.md",
+    "正文和代码/七-动态规划.md"
   ]
 }
